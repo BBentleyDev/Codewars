@@ -7,3 +7,27 @@ function areYouPlayingBanjo(name) {
   function doubleInteger(i) {
     return i * 2;
   }
+//https://www.codewars.com/kata/56b1f01c247c01db92000076/solutions/javascript
+  function doubleChar(str) {
+    // Your code here
+    let strArr = str.split('')
+    let doubledArr = strArr.map( char => char + char)
+    let doubledStr = doubledArr.join('')
+    return doubledStr
+  }
+
+//https://www.codewars.com/kata/57e76bc428d6fbc2d500036d/solutions/javascript
+  function stringToArray(string){
+
+    const strToArray = string.split(' ')
+    return strToArray
+  }
+//https://www.codewars.com/kata/5ab6538b379d20ad880000ab/solutions/javascript
+  const areaOrPerimeter = function(l , w) {
+    return l === w ? l * w : (l * 2) + (w * 2)
+  };
+
+//https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd/solutions/javascript
+function paperwork(n, m) {
+  return n > 0 && m > 0 ? n * m : 0
+}
