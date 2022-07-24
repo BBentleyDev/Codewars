@@ -15,7 +15,7 @@ function sumDigPow(a, b) {
             }
 
             sumOfDigits == a ? eureka.push(a) : 0
-      }
+        }
     return eureka
 }
 
